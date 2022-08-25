@@ -20,7 +20,7 @@ body {
 
 .btn-tooltip:hover {
     transform: translateY(-5px);
-     box-shadow: black;
+     box-shadow:  0 5px 10px rgba(45, 206, 255, 0.5);
      background-color: aqua;
      color: blueviolet;
      transition: 0.4s;
