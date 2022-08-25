@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-tooltip {
+  
+    padding: 10px 20px;/*tamano del boton*/
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+    color:black;
+    border-bottom: 2px solid palevioletred;
+
+}
+
+.btn-tooltip:hover {
+    transform: translateY(-5px);
+     box-shadow: black;
+     background-color: aqua;
+     color: blueviolet;
+     transition: 0.4s;
+}
