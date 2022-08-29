@@ -1,0 +1,32 @@
+body {
+    display:flex;
+}
+
+.barra-lateral {
+    padding: 10px;
+  background-color: aqua;
+  flex-direction: column;
+
+}
+
+.principal {
+  flex-grow: 1;
+   width: 100%;
+   text-align: center;
+    
+}
+
+@media (max-width:640px)
+{
+    body {
+        flex-direction: column-reverse;
+    }
+
+    .barra-lateral {
+        flex-direction: row;
+        align-items: flex-end;
+
+    }
+    
+}
+
